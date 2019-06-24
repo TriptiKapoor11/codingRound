@@ -67,7 +67,7 @@ Implementation of retry on failure mechanism
 
 
 
-Note:
+**Note**
 As i have office laptop and there are many restrictions, so i was not able to use the chrome executable that was already there, i have used my local chromedriver.exe (i have set that path in the framework).
 
 
