@@ -32,12 +32,12 @@ Problem Statement
 
 **Review Comments,Resolution and Refactoring of Code & Future Implementations**
 
-**Review Comments:
+**Review Comments**
 
 No Design pattern was followed, duplicate methods were used, initialization code was written repeatedly. 
 Explicit Waits were not implemented,For hitting the url code was repeated in all the tests classes
 
-**Resolution & Refactoring:
+**Resolution & Refactoring**
 
 1. I have used POM Design pattern with Page factory using Maven as a build management tool.
 Page factory is a class that has static method called initElements that will initialize all the Web Elements of page class without 
@@ -58,12 +58,13 @@ Each web page has a separate class that holds the functionality, locators and me
 
 8. Implemented Explicit Waits
 
-**Future Enhancements:
+**Future Enhancements**
 
 Implementation of  extent reporting with klov and mongodb so that history of the reports is maintained
 Implementation of logger class and capture logs
 Implementation of screenshots of only failed test cases
 Implementation of retry on failure mechanism
+
 
 
 
